@@ -156,8 +156,8 @@ class FormattingToolbar extends React.Component<Props> {
         {!isSelectionInTable && (
           <React.Fragment>
             <Separator />
-            {this.renderBlockButton("heading2", Heading1Icon)}
-            {this.renderBlockButton("heading3", Heading2Icon)}
+            {this.renderBlockButton("heading4", Heading1Icon)}
+            {this.renderBlockButton("heading5", Heading2Icon)}
             {this.renderBlockButton("block-quote", BlockQuoteIcon)}
           </React.Fragment>
         )}
